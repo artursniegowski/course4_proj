@@ -56,7 +56,7 @@ env.bak/
 venv.bak/
 
 ### Django ###
-# *.sqlite3
+*.sqlite3
 passwords.txt
 
 # spotipy lib 

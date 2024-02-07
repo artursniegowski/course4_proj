@@ -26,6 +26,10 @@ Updating movie details <br>
 - `python manage.py movie_fill tt1853728` <br>
 - `python manage.py movie_fill movie_id_omdb`
 
+
+You will also need a GitHub access token, which can be obtained here: <br>
+https://github.com/settings/tokens/new
+
 ---
 ## ABOUT
 The site is a platform where users can discuss movies. It focuses on designing models based on OMDb data. 
