@@ -16,6 +16,14 @@ You will have to set an environment variable as follows (in the command line):
 OR prepend it to the command like so:
 `DJANGO_OMDB_KEY=your_omdb_api_key python manage.py ...`
 
+
+Custom django commands to run queries:
+Populate movie data in our local database
+- `python manage.py movie_search movie_titel_here`
+Updating movie details
+- `python manage.py movie_fill tt1853728`
+- `python manage.py movie_fill movie_id_omdb`
+
 ---
 ## ABOUT
 The site is a platform where users can discuss movies. It focuses on designing models based on OMDb data. 
