@@ -2,8 +2,10 @@
 OMDB project in Course 4 of Advanced Django specialization
 
 A repository containing all the assignments completed from <br>
+
 Advanced Django: Mastering Django and Django Rest Framework Specialization: <br>  
 https://www.coursera.org/specializations/codio-advanced-django-and-django-rest-framework <br>
+
 4. Advanced Django: External APIs and Task Queuing  <br> 
 https://www.coursera.org/learn/codio-advanced-django-external-apis-task-queuing?specialization=codio-advanced-django-and-django-rest-framework <br>
 
