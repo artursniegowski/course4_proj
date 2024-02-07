@@ -11,17 +11,19 @@ Advanced Django: Mastering Django and Django Rest Framework Specialization: <br>
 The Open Movie Database is a free REST web service that can be queried to get information about movies. 
 You’ll need an API key. One can be obtained free from https://www.omdbapi.com/apikey.aspx.
 
-You will have to set an environment variable as follows (in the command line):
-`export DJANGO_OMDB_KEY=your_omdb_api_key`
-OR prepend it to the command like so:
+You will have to set an environment variable as follows (in the command line): <br>
+`export DJANGO_OMDB_KEY=your_omdb_api_key`  <br>
+OR prepend it to the command like so: <br>
 `DJANGO_OMDB_KEY=your_omdb_api_key python manage.py ...`
 
 
-Custom django commands to run queries:
-Populate movie data in our local database
-- `python manage.py movie_search movie_titel_here`
-Updating movie details
-- `python manage.py movie_fill tt1853728`
+Custom django commands to run queries: <br>
+
+Populate movie data in our local database <br>
+- `python manage.py movie_search movie_titel_here` <br>
+
+Updating movie details <br>
+- `python manage.py movie_fill tt1853728` <br>
 - `python manage.py movie_fill movie_id_omdb`
 
 ---
