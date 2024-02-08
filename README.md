@@ -34,8 +34,15 @@ You will also need a GitHub access token, which can be obtained here: <br>
 https://github.com/settings/tokens/new
 
 
-Starting celery worker:
+Starting celery worker: <br>
 `celery -A course4_proj worker -l DEBUG`
+
+Starting Celery beat  tasks that have been scheduled by calling the add_periodic_task():<br>
+`celery -A course4_proj beat -l INFO`
+
+Starting Celery beat to read the schedule from the Django database (or a different schedule store): <br>
+`celery -A course4_proj beat -l INFO --scheduler django_celery_beat.schedulers:DatabaseScheduler`
+
 
 ---
 ## ABOUT
