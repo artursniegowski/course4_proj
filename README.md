@@ -56,6 +56,13 @@ Users can comment on or read about movies. When searching for a movie, the site 
 - Connecting to external APIs
 - Implement task queuing (Schedule tasks with Celery and Redis)
 - Leverage various Django skills to create portfolio-quality projects
+- Get and parse content from an API with the Requests library
+- Use the OMDb API to fetch information about movies
+- Generate a GitHub access token and integrate it with Django to query GitHub
+- Implementig Celery - task queue, register celery task for asynchronous tasks
+- Signals, asynchronous signals, custom signals
+- Create a periodic task with Celery
+- Celery Beat - Schedule tasks that run on an interval or on a specified date/time
 
 ---
 
