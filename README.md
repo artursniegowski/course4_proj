@@ -33,6 +33,10 @@ Updating movie details <br>
 You will also need a GitHub access token, which can be obtained here: <br>
 https://github.com/settings/tokens/new
 
+
+Starting celery worker:
+`celery -A course4_proj worker -l DEBUG`
+
 ---
 ## ABOUT
 The site is a platform where users can discuss movies. It focuses on designing models based on OMDb data. 

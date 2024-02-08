@@ -178,3 +178,7 @@ class Dev(Configuration):
     # celery settings 
     CELERY_RESULT_BACKEND = "django-db"
     CELERY_BROKER_URL = "redis://localhost:6379/0"
+
+    # for eamil testing - outputing the message to the consol
+    EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+    ADMINS = [("admin", "admin@admin.com")]
